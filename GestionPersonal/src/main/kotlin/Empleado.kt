@@ -8,8 +8,8 @@
  */
 open class Empleado(nombre: String, edad: Int, salarioBase: Number, porcentajeImpuestos: Number = 10.0) : Persona(nombre, edad) {
 
-    val porcentajeImpuestos = porcentajeImpuestos.toDouble()
-    val salarioBase = salarioBase.toDouble()
+    private val porcentajeImpuestos = porcentajeImpuestos.toDouble()
+    private val salarioBase = salarioBase.toDouble()
 
     /**
      * Calcula el salario del empleado, descontando los impuestos.
