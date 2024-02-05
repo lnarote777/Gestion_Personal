@@ -1,4 +1,4 @@
-fun main(args: Array<String>) {
+fun main() {
     val persona = Persona("julia", 32)
     println(persona.toString())
     println(persona.celebrarCumple())
